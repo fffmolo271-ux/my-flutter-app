@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "238616774715",
+    "project_id": "onepercentbetter-d059e",
+    "storage_bucket": "onepercentbetter-d059e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238616774715:android:82640b6d98b8d538bfb41e",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238616774715-9r079sgodtcq07v09ao99niaedfj378q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapp",
+            "certificate_hash": "fe56ffb510b20e5cb4b25bc9be2a8f63c38e15b9"
+          }
+        },
+        {
+          "client_id": "238616774715-42u5q4k3h4t2l71q8l5dhk12s6s9danq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSNjDbTzHc0LoImDuPM8AZKWiSY1cozT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238616774715-42u5q4k3h4t2l71q8l5dhk12s6s9danq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

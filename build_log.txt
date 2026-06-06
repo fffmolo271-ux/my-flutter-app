@@ -1,0 +1,239 @@
+﻿[ +281 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +3 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +55 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[ +101 ms] Skipping pub get: version match.
+[  +43 ms] Found plugin cloud_firestore at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-6.4.1\
+[   +9 ms] Found plugin cloud_firestore_web at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore_web-5.4.1\
+[  +17 ms] Found plugin firebase_auth at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-6.5.1\
+[   +4 ms] Found plugin firebase_auth_web at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth_web-6.2.1\
+[   +4 ms] Found plugin firebase_core at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-4.9.0\
+[  +11 ms] Found plugin firebase_core_web at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core_web-3.7.0\
+[  +12 ms] Found plugin flutter_local_notifications at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-19.5.0\
+[   +3 ms] Found plugin flutter_local_notifications_linux at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications_linux-6.0.0\
+[   +5 ms] Found plugin flutter_local_notifications_windows at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications_windows-1.0.3\
+[   +6 ms] Found plugin flutter_native_splash at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_native_splash-2.4.6\
+[   +3 ms] Found plugin flutter_timezone at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_timezone-5.0.2\
+[   +8 ms] Found plugin google_mobile_ads at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\google_mobile_ads-6.0.0\
+[   +2 ms] Found plugin google_sign_in at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\google_sign_in-7.2.0\
+[   +2 ms] Found plugin google_sign_in_android at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\google_sign_in_android-7.2.1\
+[   +3 ms] Found plugin google_sign_in_ios at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\google_sign_in_ios-6.2.1\
+[   +4 ms] Found plugin google_sign_in_web at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\google_sign_in_web-1.1.0\
+[  +15 ms] Found plugin in_app_purchase at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\in_app_purchase-3.2.3\
+[   +4 ms] Found plugin in_app_purchase_android at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\in_app_purchase_android-0.4.0+5\
+[   +6 ms] Found plugin in_app_purchase_storekit at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\in_app_purchase_storekit-0.4.4\
+[  +20 ms] Found plugin path_provider at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +2 ms] Found plugin path_provider_android at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.19\
+[   +2 ms] Found plugin path_provider_foundation at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.4.2\
+[   +1 ms] Found plugin path_provider_linux at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +2 ms] Found plugin path_provider_windows at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[  +23 ms] Found plugin webview_flutter at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter-4.13.0\
+[   +1 ms] Found plugin webview_flutter_android at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter_android-4.10.1\
+[   +4 ms] Found plugin webview_flutter_wkwebview at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter_wkwebview-3.23.0\
+[  +50 ms] Found plugin cloud_firestore at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-6.4.1\
+[   +2 ms] Found plugin cloud_firestore_web at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore_web-5.4.1\
+[  +11 ms] Found plugin firebase_auth at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-6.5.1\
+[   +3 ms] Found plugin firebase_auth_web at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth_web-6.2.1\
+[   +1 ms] Found plugin firebase_core at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-4.9.0\
+[   +2 ms] Found plugin firebase_core_web at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core_web-3.7.0\
+[   +5 ms] Found plugin flutter_local_notifications at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-19.5.0\
+[   +3 ms] Found plugin flutter_local_notifications_linux at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications_linux-6.0.0\
+[   +3 ms] Found plugin flutter_local_notifications_windows at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications_windows-1.0.3\
+[   +1 ms] Found plugin flutter_native_splash at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_native_splash-2.4.6\
+[   +1 ms] Found plugin flutter_timezone at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_timezone-5.0.2\
+[   +2 ms] Found plugin google_mobile_ads at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\google_mobile_ads-6.0.0\
+[   +1 ms] Found plugin google_sign_in at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\google_sign_in-7.2.0\
+[   +1 ms] Found plugin google_sign_in_android at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\google_sign_in_android-7.2.1\
+[   +2 ms] Found plugin google_sign_in_ios at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\google_sign_in_ios-6.2.1\
+[   +4 ms] Found plugin google_sign_in_web at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\google_sign_in_web-1.1.0\
+[  +15 ms] Found plugin in_app_purchase at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\in_app_purchase-3.2.3\
+[   +2 ms] Found plugin in_app_purchase_android at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\in_app_purchase_android-0.4.0+5\
+[   +3 ms] Found plugin in_app_purchase_storekit at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\in_app_purchase_storekit-0.4.4\
+[  +15 ms] Found plugin path_provider at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +1 ms] Found plugin path_provider_android at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.19\
+[   +1 ms] Found plugin path_provider_foundation at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.4.2\
+[   +1 ms] Found plugin path_provider_linux at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +2 ms] Found plugin path_provider_windows at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[  +19 ms] Found plugin webview_flutter at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter-4.13.0\
+[   +1 ms] Found plugin webview_flutter_android at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter_android-4.10.1\
+[   +3 ms] Found plugin webview_flutter_wkwebview at C:\Users\User\AppData\Local\Pub\Cache\hosted\pub.dev\webview_flutter_wkwebview-3.23.0\
+[  +19 ms] Generating C:\Users\User\myapp\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java
+[ +121 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[ +143 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[        ] openjdk version "21.0.10" 2026-01-20
+           OpenJDK Runtime Environment (build 21.0.10+-14961533-b1163.108)
+           OpenJDK 64-Bit Server VM (build 21.0.10+-14961533-b1163.108, mixed mode)
+[   +8 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +2 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java --version
+[ +107 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java --version
+[        ] openjdk 21.0.10 2026-01-20
+           OpenJDK Runtime Environment (build 21.0.10+-14961533-b1163.108)
+           OpenJDK 64-Bit Server VM (build 21.0.10+-14961533-b1163.108, mixed mode)
+[   +2 ms] Version of Java is different than impacted version, no migration attempted.
+[   +7 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +6 ms] Using gradle from C:\Users\User\myapp\android\gradlew.bat.
+[  +16 ms] Running Gradle task 'assembleRelease'...
+[   +1 ms] executing: [C:\Users\User\myapp\android/] C:\Users\User\myapp\android\gradlew.bat --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib\main.dart -Pbase-application-name=android.app.Application -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=true assembleRelease
+[ +971 ms] Initialized native services in: C:\Users\User\.gradle\native
+[        ] Initialized jansi services in: C:\Users\User\.gradle\native
+[ +115 ms] Received JVM installation metadata from 'C:\Program Files\Android\Android Studio\jbr': {JAVA_HOME=C:\Program Files\Android\Android Studio\jbr, JAVA_VERSION=21.0.10, JAVA_VENDOR=JetBrains s.r.o., RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.10+-14961533-b1163.108, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.10+-14961533-b1163.108, VM_VENDOR=JetBrains s.r.o., OS_ARCH=amd64}
+flutter : [  +87 ms] FAILURE: Build failed with an exception.
+At line:1 char:380
++ ... rite-Output 'TESTS_DONE'; flutter build apk --release -v 2>&1 | Out-F ...
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([  +87 ms] FAIL...h an exception. 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[   +1 ms] * What went wrong:
+[        ] Value 'C:Program FilesEclipse Adoptiumjdk-17.0.19.10-hotspot' given 
+for org.gradle.java.home Gradle property is invalid (Java home supplied is 
+invalid)
+[        ] * Try:
+[        ] > Run with --debug option to get more log output.
+[        ] > Run with --scan to get full insights.
+[        ] > Get more help at https://help.gradle.org.
+[        ] * Exception is:
+[        ] java.lang.IllegalArgumentException: Value 'C:Program FilesEclipse 
+Adoptiumjdk-17.0.19.10-hotspot' given for org.gradle.java.home Gradle property 
+is invalid (Java home supplied is invalid)
+[        ] 	at org.gradle.internal.buildoption.Origin$GradlePropertyOrigin.hand
+leInvalidValue(Origin.java:58)
+[        ] 	at org.gradle.launcher.daemon.configuration.DaemonBuildOptions$Java
+HomeOption.applyTo(DaemonBuildOptions.java:137)
+[        ] 	at org.gradle.launcher.daemon.configuration.DaemonBuildOptions$Java
+HomeOption.applyTo(DaemonBuildOptions.java:126)
+[        ] 	at org.gradle.internal.buildoption.StringBuildOption.applyFromPrope
+rty(StringBuildOption.java:44)
+[        ] 	at org.gradle.internal.buildoption.BuildOptionSet$2.convert(BuildOp
+tionSet.java:64)
+[        ] 	at org.gradle.launcher.cli.converter.BuildOptionBackedConverter.con
+vert(BuildOptionBackedConverter.java:36)
+[   +1 ms] 	at org.gradle.launcher.cli.ParametersConverter.convert(ParametersCo
+nverter.java:80)
+[   +1 ms] 	at org.gradle.launcher.cli.BuildActionsFactory.createAction(BuildAc
+tionsFactory.java:91)
+[        ] 	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$ParseAnd
+BuildAction.createAction(DefaultCommandLineActionFactory.java:270)
+[        ] 	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$ParseAnd
+BuildAction.execute(DefaultCommandLineActionFactory.java:254)
+[        ] 	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$ParseAnd
+BuildAction.execute(DefaultCommandLineActionFactory.java:230)
+[        ] 	at org.gradle.launcher.cli.DebugLoggerWarningAction.execute(DebugLo
+ggerWarningAction.java:74)
+[        ] 	at org.gradle.launcher.cli.DebugLoggerWarningAction.execute(DebugLo
+ggerWarningAction.java:30)
+[        ] 	at org.gradle.launcher.cli.WelcomeMessageAction.execute(WelcomeMess
+ageAction.java:96)
+[        ] 	at org.gradle.launcher.cli.WelcomeMessageAction.execute(WelcomeMess
+ageAction.java:40)
+[        ] 	at org.gradle.launcher.cli.NativeServicesInitializingAction.execute
+(NativeServicesInitializingAction.java:44)
+[        ] 	at org.gradle.launcher.cli.NativeServicesInitializingAction.execute
+(NativeServicesInitializingAction.java:26)
+[        ] 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(Excepti
+onReportingAction.java:41)
+[        ] 	at org.gradle.launcher.cli.ExceptionReportingAction.execute(Excepti
+onReportingAction.java:26)
+[        ] 	at org.gradle.launcher.cli.DefaultCommandLineActionFactory$WithLogg
+ing.execute(DefaultCommandLineActionFactory.java:361)
+[        ] 	at org.gradle.launcher.Main.doAction(Main.java:35)
+[        ] 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:50)
+[        ] 	at 
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown 
+Source)
+[        ] 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+[        ] 	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(Process
+Bootstrap.java:60)
+[        ] 	at 
+org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+[        ] 	at 
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown 
+Source)
+[        ] 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+[        ] 	at org.gradle.launcher.GradleMain.main(GradleMain.java:34)
+[        ] 	at 
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown 
+Source)
+[        ] 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+[        ] 	at 
+org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+[        ] 	at 
+org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+[        ] 	at 
+org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+[  +37 ms] Running Gradle task 'assembleRelease'... (completed in 1,218ms)
+[  +68 ms] "flutter apk" took 2,369ms.
+[  +42 ms] Gradle task assembleRelease failed with exit code 1
+[        ] 
+           #0      throwToolExit 
+(package:flutter_tools/src/base/common.dart:34:3)
+           #1      AndroidGradleBuilder.buildGradleApp 
+(package:flutter_tools/src/android/gradle.dart:572:7)
+           <asynchronous suspension>
+           #2      AndroidGradleBuilder.buildApk 
+(package:flutter_tools/src/android/gradle.dart:232:5)
+           <asynchronous suspension>
+           #3      BuildApkCommand.runCommand 
+(package:flutter_tools/src/commands/build_apk.dart:154:5)
+           <asynchronous suspension>
+           #4      FlutterCommand.run.<anonymous closure> 
+(package:flutter_tools/src/runner/flutter_command.dart:1558:27)
+           <asynchronous suspension>
+           #5      AppContext.run.<anonymous closure> 
+(package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #6      CommandRunner.runCommand 
+(package:args/command_runner.dart:212:13)
+           <asynchronous suspension>
+           #7      FlutterCommandRunner.runCommand.<anonymous closure> 
+(package:flutter_tools/src/runner/flutter_command_runner.dart:496:9)
+           <asynchronous suspension>
+           #8      AppContext.run.<anonymous closure> 
+(package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #9      FlutterCommandRunner.runCommand 
+(package:flutter_tools/src/runner/flutter_command_runner.dart:431:5)
+           <asynchronous suspension>
+           #10     run.<anonymous closure>.<anonymous closure> 
+(package:flutter_tools/runner.dart:98:11)
+           <asynchronous suspension>
+           #11     AppContext.run.<anonymous closure> 
+(package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #12     main (package:flutter_tools/executable.dart:99:3)
+           <asynchronous suspension>
+
+
+[        ] Running 1 shutdown hook
+[   +1 ms] Shutdown hooks complete
+[ +266 ms] exiting with code 1

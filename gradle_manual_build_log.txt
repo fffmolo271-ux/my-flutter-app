@@ -1,0 +1,638 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.7/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :gradle:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources
+
+> Task :gradle:compileKotlin
+cmd.exe : e: Daemon compilation failed: Could not connect to Kotlin compile 
+daemon
+At C:\Users\User\myapp\scripts\gradle_manual_run.ps1:3 char:1
++ & cmd /c "set \"JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0. ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (e: Daemon compi... compile daemon 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+java.lang.RuntimeException: Could not connect to Kotlin compile daemon
+	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.compileWithDae
+mon(GradleKotlinCompilerWork.kt:218)
+	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.compileWithDae
+monOrFallbackImpl(GradleKotlinCompilerWork.kt:175)
+	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotl
+inCompilerWork.kt:135)
+	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleK
+otlinCompilerWorkAction.execute(GradleCompilerRunnerWithWorkers.kt:73)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer
+.java:63)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolation
+WorkerFactory.java:66)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolation
+WorkerFactory.java:62)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(Class
+LoaderUtils.java:100)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoI
+solationWorkerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:200)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:195)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuil
+dOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBu
+ildOperationExecutor.java:73)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(A
+bstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationW
+orkerFactory.java:59)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(Defau
+ltWorkerExecutor.java:174)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.r
+unExecution(DefaultConditionalExecutionQueue.java:187)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.a
+ccess$700(DefaultConditionalExecutionQueue.java:120)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1
+.run(DefaultConditionalExecutionQueue.java:162)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerL
+easeService.java:264)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(Defaul
+tWorkerLeaseService.java:128)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(Defaul
+tWorkerLeaseService.java:133)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.r
+unBatch(DefaultConditionalExecutionQueue.java:157)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.r
+un(DefaultConditionalExecutionQueue.java:126)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.jav
+a:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExec
+ute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManage
+dExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecu
+tor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExec
+utor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Failed to compile with Kotlin daemon: java.lang.RuntimeException: Could not connect to Kotlin compile daemon
+	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.compileWithDaemon(GradleKotlinCompilerWork.kt:218)
+	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.compileWithDaemonOrFallbackImpl(GradleKotlinCompilerWork.kt:175)
+	at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotlinCompilerWork.kt:135)
+	at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction.execute(GradleCompilerRunnerWithWorkers.kt:73)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:200)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:195)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:174)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:187)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:120)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:162)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:264)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:128)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:133)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:157)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:126)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Using fallback strategy: Compile without Kotlin daemon
+Try ./gradlew --stop if this issue persists.
+exception: warning: ATTENTION!
+exception: this build uses unsafe internal compiler arguments:
+exception: 
+exception: 
+exception: this mode is not recommended for production use,
+exception: as no stability/compatibility guarantees are given on
+exception: compiler or generated code. Use it at your own risk!
+exception: 
+
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':gradle:compileGroovy'.
+> Could not resolve all files for configuration 
+':gradle:detachedConfiguration5'.
+   > Could not find org.codehaus.groovy:groovy:?.?.??.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy/%D9
+%A3.%D9%A0.%D9%A1%D9%A7/groovy-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+       - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/%D9%A3
+.%D9%A0.%D9%A1%D9%A7/groovy-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+     Required by:
+         project :gradle
+   > Could not find org.codehaus.groovy:groovy-ant:?.?.??.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-ant
+/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-ant-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+       - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-ant/%D
+9%A3.%D9%A0.%D9%A1%D9%A7/groovy-ant-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+     Required by:
+         project :gradle
+   > Could not find org.codehaus.groovy:groovy-astbuilder:?.?.??.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-ast
+builder/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-astbuilder-%D9%A3.%D9%A0.%D9%A1%D9%A7
+.pom
+       - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-astbui
+lder/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-astbuilder-%D9%A3.%D9%A0.%D9%A1%D9%A7.po
+m
+     Required by:
+         project :gradle
+   > Could not find org.codehaus.groovy:groovy-console:?.?.??.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-con
+sole/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-console-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+       - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-consol
+e/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-console-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+     Required by:
+         project :gradle
+   > Could not find org.codehaus.groovy:groovy-datetime:?.?.??.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-dat
+etime/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-datetime-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+       - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-dateti
+me/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-datetime-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+     Required by:
+         project :gradle
+   > Could not find org.codehaus.groovy:groovy-dateutil:?.?.??.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-dat
+eutil/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-dateutil-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+       - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-dateut
+il/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-dateutil-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+     Required by:
+         project :gradle
+   > Could not find org.codehaus.groovy:groovy-nio:?.?.??.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-nio
+/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-nio-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+       - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-nio/%D
+9%A3.%D9%A0.%D9%A1%D9%A7/groovy-nio-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+     Required by:
+         project :gradle
+   > Could not find org.codehaus.groovy:groovy-sql:?.?.??.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-sql
+/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-sql-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+       - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-sql/%D
+9%A3.%D9%A0.%D9%A1%D9%A7/groovy-sql-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+     Required by:
+         project :gradle
+   > Could not find org.codehaus.groovy:groovy-test:?.?.??.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-tes
+t/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-test-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+       - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-test/%
+D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-test-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+     Required by:
+         project :gradle
+   > Could not find org.codehaus.groovy:groovy-templates:?.?.??.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-tem
+plates/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-templates-%D9%A3.%D9%A0.%D9%A1%D9%A7.p
+om
+       - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-templa
+tes/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-templates-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+     Required by:
+         project :gradle
+   > Could not find org.codehaus.groovy:groovy-json:?.?.??.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-jso
+n/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-json-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+       - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-json/%
+D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-json-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+     Required by:
+         project :gradle
+   > Could not find org.codehaus.groovy:groovy-xml:?.?.??.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-xml
+/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-xml-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+       - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-xml/%D
+9%A3.%D9%A0.%D9%A1%D9%A7/groovy-xml-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+     Required by:
+         project :gradle
+   > Could not find org.codehaus.groovy:groovy-groovydoc:?.?.??.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-gro
+ovydoc/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-groovydoc-%D9%A3.%D9%A0.%D9%A1%D9%A7.p
+om
+       - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-groovy
+doc/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-groovydoc-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+     Required by:
+         project :gradle
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task 
+':gradle:compileGroovy'.
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(
+CatchExceptionTaskExecuter.java:38)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTa
+sk(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(Even
+tFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(Even
+tFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:200)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:195)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuil
+dOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBu
+ildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(Eve
+ntFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecut
+or.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutor
+sAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutor
+sAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwar
+eExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOp
+erationRef.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwar
+eExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwar
+eExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(Defaul
+tPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPla
+nExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExec
+ute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManage
+dExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecu
+tor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExec
+utor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfigura
+tion$ArtifactResolveException: Could not resolve all files for configuration 
+':gradle:detachedConfiguration5'.
+	at org.gradle.api.internal.artifacts.ResolveExceptionContextualizer.mapFailure
+s(ResolveExceptionContextualizer.java:56)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$Defau
+ltResolutionHost.mapFailure(DefaultConfiguration.java:2079)
+	at org.gradle.api.internal.artifacts.configurations.ResolutionHost.rethrowFail
+ure(ResolutionHost.java:39)
+	at org.gradle.api.internal.artifacts.configurations.ResolutionBackedFileCollec
+tion.maybeThrowResolutionFailures(ResolutionBackedFileCollection.java:84)
+	at org.gradle.api.internal.artifacts.configurations.ResolutionBackedFileCollec
+tion.visitContents(ResolutionBackedFileCollection.java:74)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitStructure(Abstract
+FileCollection.java:361)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.visit
+Contents(DefaultConfiguration.java:527)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitStructure(Abstract
+FileCollection.java:361)
+	at org.gradle.api.internal.file.CompositeFileCollection.lambda$visitContents$0
+(CompositeFileCollection.java:113)
+	at org.gradle.api.internal.file.collections.LazilyInitializedFileCollection.vi
+sitChildren(LazilyInitializedFileCollection.java:53)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitContents(Composit
+eFileCollection.java:113)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitStructure(Abstract
+FileCollection.java:361)
+	at org.gradle.api.internal.file.CompositeFileCollection.lambda$visitContents$0
+(CompositeFileCollection.java:113)
+	at org.gradle.api.internal.file.collections.UnpackingVisitor.add(UnpackingVisi
+tor.java:67)
+	at org.gradle.api.internal.file.collections.UnpackingVisitor.add(UnpackingVisi
+tor.java:92)
+	at org.gradle.api.internal.file.DefaultFileCollectionFactory$ResolvingFileColl
+ection.visitChildren(DefaultFileCollectionFactory.java:285)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitContents(Composit
+eFileCollection.java:113)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitStructure(Abstract
+FileCollection.java:361)
+	at org.gradle.api.internal.file.CompositeFileCollection.lambda$visitContents$0
+(CompositeFileCollection.java:113)
+	at org.gradle.api.internal.tasks.PropertyFileCollection.visitChildren(Property
+FileCollection.java:48)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitContents(Composit
+eFileCollection.java:113)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitStructure(Abstract
+FileCollection.java:361)
+	at org.gradle.internal.fingerprint.impl.DefaultFileCollectionSnapshotter.snaps
+hot(DefaultFileCollectionSnapshotter.java:47)
+	at org.gradle.internal.execution.impl.DefaultInputFingerprinter$InputCollectin
+gVisitor.visitInputFileProperty(DefaultInputFingerprinter.java:133)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.visitRegularInputs(Ta
+skExecution.java:324)
+	at org.gradle.internal.execution.impl.DefaultInputFingerprinter.fingerprintInp
+utProperties(DefaultInputFingerprinter.java:63)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep
+.captureExecutionStateWithOutputs(AbstractCaptureStateBeforeExecutionStep.java:
+109)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep
+.lambda$captureExecutionState$0(AbstractCaptureStateBeforeExecutionStep.java:74
+)
+	at org.gradle.internal.execution.steps.BuildOperationStep$1.call(BuildOperatio
+nStep.java:37)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:200)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:195)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuil
+dOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBu
+ildOperationExecutor.java:73)
+	at org.gradle.internal.execution.steps.BuildOperationStep.operation(BuildOpera
+tionStep.java:34)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep
+.captureExecutionState(AbstractCaptureStateBeforeExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep
+.execute(AbstractCaptureStateBeforeExecutionStep.java:62)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep
+.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNo
+nEmptySources(AbstractSkipEmptyWorkStep.java:125)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(Abstr
+actSkipEmptyWorkStep.java:61)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(Abstr
+actSkipEmptyWorkStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedSte
+p.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(
+LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(
+LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleSt
+aleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleSt
+aleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execu
+te$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskE
+xecution.java:289)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(Assi
+gnMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(Assi
+gnMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipeli
+neStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipeli
+neStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lam
+bda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.exe
+cute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.exe
+cute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCache
+Step.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCache
+Step.java:34)
+	at 
+org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+	at 
+org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(Default
+ExecutionEngine.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeI
+fValid(ExecuteActionsTaskExecuter.java:127)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(
+ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.exec
+ute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.ex
+ecute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execu
+te(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(Skip
+OnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(
+CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTa
+sk(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(Even
+tFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(Even
+tFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:200)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOpe
+rationWorker.execute(DefaultBuildOperationRunner.java:195)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:66)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(Defaul
+tBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultB
+uildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuil
+dOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBu
+ildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(Eve
+ntFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecut
+or.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutor
+sAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutor
+sAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwar
+eExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOp
+erationRef.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwar
+eExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwar
+eExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(Defaul
+tPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPla
+nExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExec
+ute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManage
+dExecutor.java:47)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecu
+tor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExec
+utor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Cause 1: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not 
+find org.codehaus.groovy:groovy:?.?.??.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy/%D9%A3.%
+D9%A0.%D9%A1%D9%A7/groovy-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+  - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/%D9%A3.%D9%
+A0.%D9%A1%D9%A7/groovy-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+Required by:
+    project :gradle
+Cause 2: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not 
+find org.codehaus.groovy:groovy-ant:?.?.??.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-ant/%D9%
+A3.%D9%A0.%D9%A1%D9%A7/groovy-ant-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+  - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-ant/%D9%A3.
+%D9%A0.%D9%A1%D9%A7/groovy-ant-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+Required by:
+    project :gradle
+Cause 3: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not 
+find org.codehaus.groovy:groovy-astbuilder:?.?.??.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-astbuild
+er/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-astbuilder-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+  - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-astbuilder/
+%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-astbuilder-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+? actionable tasks: ? executed, ? up-to-date
+Required by:
+    project :gradle
+Cause 4: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not 
+find org.codehaus.groovy:groovy-console:?.?.??.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-console/
+%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-console-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+  - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-console/%D9
+%A3.%D9%A0.%D9%A1%D9%A7/groovy-console-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+Required by:
+    project :gradle
+Cause 5: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not 
+find org.codehaus.groovy:groovy-datetime:?.?.??.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-datetime
+/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-datetime-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+  - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-datetime/%D
+9%A3.%D9%A0.%D9%A1%D9%A7/groovy-datetime-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+Required by:
+    project :gradle
+Cause 6: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not 
+find org.codehaus.groovy:groovy-dateutil:?.?.??.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-dateutil
+/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-dateutil-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+  - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-dateutil/%D
+9%A3.%D9%A0.%D9%A1%D9%A7/groovy-dateutil-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+Required by:
+    project :gradle
+Cause 7: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not 
+find org.codehaus.groovy:groovy-nio:?.?.??.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-nio/%D9%
+A3.%D9%A0.%D9%A1%D9%A7/groovy-nio-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+  - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-nio/%D9%A3.
+%D9%A0.%D9%A1%D9%A7/groovy-nio-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+Required by:
+    project :gradle
+Cause 8: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not 
+find org.codehaus.groovy:groovy-sql:?.?.??.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-sql/%D9%
+A3.%D9%A0.%D9%A1%D9%A7/groovy-sql-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+  - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-sql/%D9%A3.
+%D9%A0.%D9%A1%D9%A7/groovy-sql-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+Required by:
+    project :gradle
+Cause 9: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not 
+find org.codehaus.groovy:groovy-test:?.?.??.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-test/%D9
+%A3.%D9%A0.%D9%A1%D9%A7/groovy-test-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+  - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-test/%D9%A3
+.%D9%A0.%D9%A1%D9%A7/groovy-test-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+Required by:
+    project :gradle
+Cause 10: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could 
+not find org.codehaus.groovy:groovy-templates:?.?.??.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-template
+s/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-templates-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+  - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-templates/%
+D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-templates-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+Required by:
+    project :gradle
+Cause 11: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could 
+not find org.codehaus.groovy:groovy-json:?.?.??.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-json/%D9
+%A3.%D9%A0.%D9%A1%D9%A7/groovy-json-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+  - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-json/%D9%A3
+.%D9%A0.%D9%A1%D9%A7/groovy-json-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+Required by:
+    project :gradle
+Cause 12: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could 
+not find org.codehaus.groovy:groovy-xml:?.?.??.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-xml/%D9%
+A3.%D9%A0.%D9%A1%D9%A7/groovy-xml-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+  - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-xml/%D9%A3.
+%D9%A0.%D9%A1%D9%A7/groovy-xml-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+Required by:
+    project :gradle
+Cause 13: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could 
+not find org.codehaus.groovy:groovy-groovydoc:?.?.??.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/org/codehaus/groovy/groovy-groovydo
+c/%D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-groovydoc-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+  - https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-groovydoc/%
+D9%A3.%D9%A0.%D9%A1%D9%A7/groovy-groovydoc-%D9%A3.%D9%A0.%D9%A1%D9%A7.pom
+Required by:
+    project :gradle
+
+
+BUILD FAILED in 35s
